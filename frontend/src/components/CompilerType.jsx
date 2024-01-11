@@ -1,11 +1,10 @@
 import compilerData from "../data/data.js";
-import OnlineCompiler from "./OnlineCompiler.jsx";
-
+import CompilerDetails from "./CompilerDetails.jsx";
 const CompilerType = () => {
     return (
         <div className="border-none sm:px-[20px] md:px-[50px] lg:px-[80px] xl:px-[100px] dark:bg-black">
             <div className=" vsm:px-[10%] sm:px-[10%] md:px-[10%] lg:px-[13%]">
-                <h2 className="vsm:text-sm dark:bg-black sm:font-semibold vsm:font-semibold sm:text-[1.5rem] md:text-[1.8rem] lg:text-[2rem] xl:text-[2.5rem] xl:pt-[30px] dark:text-slate-50 ">Online Compiler </h2>
+                <h2 className="vsm:text-sm dark:bg-black sm:text-[1.2rem] md:text-[1.5rem] lg:text-[1.8rem] xl:text-[2rem] xl:pt-[30px] dark:text-slate-50 ">Online Compiler </h2>
                 <p className="vsm:text-[13px] dark:bg-black dark:text-slate-50 sm:text-md md:text-lg lg:text-[1rem] xl:text-[1.5rem]">Choose one of the language to run code online</p>
             </div>
             <section className="vsm:flex vsm:flex-col-reverse vsm:gap-[20px] grid grid-cols-2 grid-rows-4 items-center vsm:py-[20px] sm:py-[60px] md:py-[60px] bg-white dark:bg-black">
@@ -20,7 +19,7 @@ const CompilerType = () => {
                     );
                 })}
             </section>
-            <OnlineCompiler/>
+            <CompilerDetails/>
         </div>
     );
 }
