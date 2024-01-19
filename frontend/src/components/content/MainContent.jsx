@@ -1,7 +1,7 @@
 const MainContent = () => {
     const compilerImage = "/compiler.png";
     return (
-            <main className="mt-1 dark:mt-0 flex vsm:gap-[15px] vsm:flex-col-reverse vsm:items-center sm:gap-[25px] vsm:py-[30px] vsm:px-[40px] sm:py-[60px] sm:px-[80px] md:p-[100px] bg-white dark:bg-black dark:text-slate-50">
+            <main className="mt-4 dark:mt-0 flex vsm:gap-[15px] vsm:flex-col-reverse vsm:items-center sm:gap-[25px] vsm:py-[30px] vsm:px-[40px] sm:py-[60px] sm:px-[80px] md:p-[100px] bg-white dark:bg-black dark:text-slate-50">
                 <section className="vsm:max-w-[200px] md:max-w-screen-md sm:max-w-screen-sm">
                     <img src={compilerImage} alt="compiler image"/>
                 </section>

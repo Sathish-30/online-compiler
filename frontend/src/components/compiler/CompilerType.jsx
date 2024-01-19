@@ -1,4 +1,4 @@
-import compilerData from "../data/data.js";
+import compilerData from "../../data/data.js";
 import CompilerDetails from "./CompilerDetails.jsx";
 const CompilerType = () => {
     return (
@@ -19,7 +19,6 @@ const CompilerType = () => {
                     );
                 })}
             </section>
-            <CompilerDetails/>
         </div>
     );
 }

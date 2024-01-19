@@ -1,6 +1,6 @@
 const CompilerDetails = () => {
     return (
-        <div className="vsm:px-[10%] sm:px-[10%] md:px-[10%] lg:px-[13%] mt-[3%] dark:bg-black dark:text-slate-50 text-lg">
+        <div className="vsm:px-[10%] sm:px-[10%] md:px-[10%] lg:px-[13%] py-[8%] dark:bg-black dark:text-slate-50 text-lg">
             <h4 className="vsm:text-sm dark:bg-black sm:font-semibold vsm:font-semibold sm:text-[1.5rem] md:text-[1.8rem] lg:text-[2rem] xl:text-[2.5rem] xl:pt-[30px] dark:text-slate-50 ">Online Compiler</h4>
             <p className="pt-[3%]">An Online compiler is a tool that allows you to compile source code and run it in several different programming languages online.</p>
             <p className="pt-[3%]">An online compiler is needed for program execution. It converts the text-based source code into an executable representation known as object code. If a compiler is designed to run manually on every system, it will take up more space on the machine. It will also need correct configuration if not loaded with the default options. Most apps and their related interfaces are designed to work online in today's world. Therefore, an online compiler is created.</p>
