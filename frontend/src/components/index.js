@@ -4,4 +4,5 @@ import Header from "./header/Header";
 import Footer from "./footer/Footer";
 import MainContent from "./content/MainContent";
 import Layout from "./layout/Layout";
-export {CompilerDetails , CompilerType , Header , Footer , MainContent , Layout ,};
+import LoginHeader from "./login/LoginHeader";
+export {CompilerDetails , CompilerType , Header , Footer , MainContent , Layout , LoginHeader};

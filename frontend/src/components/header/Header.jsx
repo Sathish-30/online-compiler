@@ -8,13 +8,13 @@ const Header = () => {
                 </div>
                 <ol className="vsm:hidden sm:flex md:flex md:text-lg vsm:text-sm sm:text-base">
                     <li>
-                        <NavLink to="/" className={({isActive}) => `sm:px-[0.5rem] md:px-[2rem]  ${isActive ? "dark:text-sky-200 text-[#EBD9B4] " : "text-black"} dark:text-white dark:hover:text-sky-200">`}>Home</NavLink>
+                        <NavLink to="/" className={({isActive}) => `sm:px-[0.5rem] md:px-[2rem]  ${isActive ? "dark:text-sky-200 text-[#EBD9B4] " : "text-black"} dark:text-white dark:hover:text-sky-200`}>Home</NavLink>
                     </li>
                     <li>                    
                         <NavLink to="about" className={({isActive}) =>`sm:px-[0.5rem] md:px-[2rem] ${isActive ? "dark:text-sky-200 text-[#EBD9B4] " : "text-black"}dark:text-white dark:hover:text-sky-200`}>About</NavLink>
                     </li>
                     <li>
-                        <NavLink to="contact" className={({isActive}) =>`sm:px-[0.5rem] md:pl-[2rem] ${isActive ? "dark:text-sky-200 text-[#EBD9B4]" : "text-black"}dark:text-white dark:hover:text-sky-200`}>Contact</NavLink>
+                        <NavLink to="login" className={({isActive}) =>`sm:px-[0.5rem] md:pl-[2rem] ${isActive ? "dark:text-sky-200 text-[#EBD9B4]" : "text-black"}dark:text-white dark:hover:text-sky-200`}>Login</NavLink>
                     </li>
                 </ol>
             </header>
